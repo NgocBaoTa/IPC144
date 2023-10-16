@@ -1,0 +1,13 @@
+﻿  w2p2.c
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(90,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(91,29): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(92,33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(107,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(108,29): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(109,33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(124,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(125,29): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(126,33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(159,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(194,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  w2p2.vcxproj -> C:\Users\baong\OneDrive\Desktop\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\x64\Debug\w2p2.exe

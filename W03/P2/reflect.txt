@@ -1,0 +1,40 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Section    : E
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1. Code: (userNum <= 4 && userNum >= 1 && weight1 == 250) || (userNum <= 9 
+&& userNum >= 5 && weight1 == 500) || (userNum >= 10 && weight1 == 1000)
+
+a. 3 relational expressions: <=, >=, ==
+b. 2 logical expressions: &&, ||
+
+
+2. Not applying DeMorgan's Law: (id3 != id2) && (id3 != id1)
+   Applying DeMorgan's Law:     !(id3 == id1 || id3 == id2)
+I did not apply DeMorgan's Law in my submitted answer
+
+
+3. Variables I used in part-2:
+	const double GRAMS_IN_LBS = 453.5924;
+    	char type1, type2, type3;
+    	int weight1, weight2, weight3;
+    	char cream1, cream2, cream3;
+    	char userType;
+    	char userCream;
+    	int userNum;
+
+- define variables at the begining of the function 
+- name of the variables should describes the data being stored 
+	e.g: weight1 variable store the bag weight of coffee-1
+- group related variables together e.g: char type1, type2, type3; 

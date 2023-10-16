@@ -1,0 +1,14 @@
+﻿  w2p1.c
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(30,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(32,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(34,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(40,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(41,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(42,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(53,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(55,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(57,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(31,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(33,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(35,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\baong\source\repos\IPC144\W02\W2P1\w2p1.c(47,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

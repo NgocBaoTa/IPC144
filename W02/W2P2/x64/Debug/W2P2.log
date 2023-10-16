@@ -1,0 +1,40 @@
+﻿  w2p2.c
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(37,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(40,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(43,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(52,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(53,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(54,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(90,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(94,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(107,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(111,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(124,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(128,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(160,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(161,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(164,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(168,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(169,18): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(172,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(173,18): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(176,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(177,18): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(180,20): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(181,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(182,18): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(186,12): warning C4129: '$': unrecognized character escape sequence
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(196,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(197,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(200,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(204,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(205,18): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(208,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(209,18): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(212,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(213,18): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(216,20): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(217,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(218,18): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\baong\source\repos\IPC144\W02\W2P2\w2p2.c(221,12): warning C4129: '$': unrecognized character escape sequence
+  W2P2.vcxproj -> C:\Users\baong\source\repos\IPC144\W02\W2P2\x64\Debug\W2P2.exe

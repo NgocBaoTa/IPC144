@@ -1,0 +1,40 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email 	: bta@myseneca.ca
+Section    : E
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. My code: #define LOG_DAYS 3
+		int year, month, day = 1;
+		
+Using variables and macros to represent information instead of hardcode 
+“magic” numbers because:
+- Improved readability: Names of the variables and macros make code more 
+readable and self-explanatory when be used repeatedly in the code.
+- Easier for maintenance: If a value needs to be changed, we just need to 
+change it in 1 place and it will be applied for others, instead of updating
+one by one.
+E.g.: if I want to change the number of log-day, I just change like 
+#define LOG_DAYS 10, and other places I use this macro will be changed to 10
+- Reusability: variables and macros can be reused and shared between different
+parts of the code.
+
+2.
+- Improve the performance: If I put the sum and average logic in the validated 
+input iteration, program has to check when the sum and average should be 
+calculated and shown repeatedly for every iteration, even if the input is not 
+valid. => If placing the sum and average logic outside the validation logic, 
+this makes sure that the calculations are only performed on valid data 
+=> improve the accuracy of the results
+- Easier maintenance: Separating code to smaller parts may make the code 
+easier to understand, maintain, and test. And the changes to one part of the 
+code are less likely to affect others. For example, if I'm sure that my 
+validation logic is correct but sums and average are wrong, I just need to 
+check the sum and average logic, not including the validation part. 

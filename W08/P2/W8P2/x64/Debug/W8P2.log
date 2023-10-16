@@ -1,0 +1,4 @@
+﻿  w8p2.c
+C:\Users\baong\source\repos\IPC144\W08\P2\W8P2\w8p2.c(140,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\baong\source\repos\IPC144\W08\P2\W8P2\w8p2.c(144,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  W8P2.vcxproj -> C:\Users\baong\source\repos\IPC144\W08\P2\W8P2\x64\Debug\W8P2.exe

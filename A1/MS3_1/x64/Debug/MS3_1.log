@@ -1,0 +1,14 @@
+﻿  clinic.c
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(442,38): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(442,51): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(442,64): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(442,77): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(442,91): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(442,104): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(621,50): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(621,63): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(621,76): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(621,89): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(622,33): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\baong\source\repos\IPC144\A1\MS3_1\clinic.c(622,46): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+  MS3_1.vcxproj -> C:\Users\baong\source\repos\IPC144\A1\MS3_1\x64\Debug\MS3_1.exe

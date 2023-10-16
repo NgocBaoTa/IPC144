@@ -1,0 +1,40 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : Bao Ngoc ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca    
+Section    : E
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. - Several helper functions designed to return values in two different ways 
+(via an argument and/or by return) to increase flexibility and usability by 
+providing users many ways of retrieving function's output => users can choose
+the suitable method for each case.
+
+- Function with multiple exit points can be more difficult to ensure that all 
+the logic is correct and make users confused if they are not aware of different
+ways of retrieving output.
+
+2. - Function that demonstrates less than perfect cohesion is convertLbs()
+because it does both tasks: converting lbs to kg and converting lbs to g. We
+have already have two functions to do these task, so we needn't to group them 
+into a function
+- Function that demonstrates coupling that could be improved is convertLbsG()
+because the function convertLbsKg() is called in convertLbsG() => instead of 
+creating convertLbsG(), we can use the result of convertLbsKg() to calculate
+directly.
+
+3. - Programmers can pass an entire structure containing related data to the 
+function instead of multiple individual variables => reduce the complexity of 
+function arguments
+- Passing a structure by address is efficient because it avoids copying all 
+member values, saving time and space especially in cases where a member is an 
+array with a large number of elements.
+
+In function displayCatFoodData, instead of passing multiple related variables, 
+we can pass the structure CatFoodInfo to it.

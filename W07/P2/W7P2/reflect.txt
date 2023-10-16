@@ -1,0 +1,36 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #7
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Section    : E
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. I was successful in coding non-repetitive sections of logic in the game 
+play portion of this workshop by using loops and conditions
+e.g. drawing of the ruler: I used for loop since we know the number of needed 
+loops and inside the loop, I used condition to check whether loop counter % 10
+is equal to 0 to printf the 1st number in every 10 positions.
+
+2. Structures help in simplifying a program by allowing related data to be 
+grouped together => making the code more organized and easier to maintain
+Instead of creating many individual variables, arrays and parallel arrays to 
+store data, structure makes the code more readable and easier to represent 
+complex data types.
+
+3.
+do {
+	for (p = 0; p < game.pathLength; p++) {
+      	if (player.history[p] == 0) {
+            }
+            else {
+                if (game.bombs[p] == 1 && game.treasure[p] == 1) {
+                }
+            }
+        }
+    } while (player.lives >= 0 && game.moves >= 0 && flag == 0);

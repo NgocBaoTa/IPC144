@@ -1,0 +1,88 @@
+/*/////////////////////////////////////////////////////////////////////////
+                        Assignment 1 - Reflection
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Section    : E
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+/////////////////////////////////////////////////////////////////////////*/
+
+1. 
+- int inputInt(void);
+	+ Purpose: this function can be used to obtain input from the user, 
+then check whether it is an integer or not. If it is not an integer, an error 
+message will be sent to the user and if it is an integer, the function will 
+return it.
+	+ Value: This function is called in some other functions like 
+inputIntRange() or inputIntPositive(). It prompts the user for input, checks 
+whether it is an integer or not and clears the input buffer right after the 
+input is read.
+- void displayFormattedPhone(const char* phoneNum); 
+	+ Purpose: This function is used to display a formatted phone number by 
+receiving an array of characters, checking and formatting it. It checks if the 
+argument is exactly 10 characters long and just contains digits or not. And 
+different formats will be displayed in case the argument is wrong 
+((___)___-____) and in case it passes the validation ((XXX) XXX-XXXX)
+	+  Value: This function is used when printing the clinic's phone number 
+(listing clinic data and appointment data...).
+- int inputIntRange(int min, int max);
+	+ Purpose: this function calls inputInt() to check whether the input is 
+an integer or not first. And if it is outside the permitted range (min-max), 
+it will display an error message and continue to prompt for a value until a 
+positive integer value is within the range. After that it will return this 
+value.
+	+ Value: This function is called in some other functions for receiving 
+the user's input and validating such as when getting the user's selection in 
+the menu, getting the user's input for month, day, hour, minute...
+
+===> Reduce repeatition in code (=> save development time, reduce the risk of 
+errors, and make the code easier to maintain), make the code more organized 
+and reusable. 
+     Each function is responsible for a specific task.
+  
+2. In the clinic.c source code file, the number of scanf function calls was 
+purposely and significantly minimized in this module because "helper" functions 
+already call scanf function and they do fundamental works like getting the 
+user's input and handling the input validation. These functions are designed 
+to perform specific input validation tasks, such as checking if an entered value
+is an integer, checking if an integer is positive, checking if an integer is
+within a specific range, and checking if a character matches any of the
+characters in a received C string argument. And in this module, we just call 
+these functions instead of using scanf function directly and then validating the 
+input. This approach makes the code more modular and easier to understand, while 
+ensuring that user input is properly validated and error handling is performed.
+For example: 
+- The inputIntRange() function can be used to get and validate the user's input 
+for day, month, selection,...
+- The inputCharOption() function can be used to get and validate the user's input: 
+'Y', 'y', 'n', 'N' or other invalid characters when asking user for confirmation 
+before deleting data.
+
+3. 
+- int inputInt(void);
+	+ I called this function in inputIntPositive() function and inputIntRange() 
+function  
+	+ It is because: the inputInt() function is a helper function that gets an 
+integer input from the user and validates that the input is a valid integer while 
+the inputIntPositive() and inputIntRange() functions both require integer input 
+validation first. 
+- void displayFormattedPhone(const char* phoneNum);
+	+ I called this function in removeAppointment() function and it also was 
+used in some other provided functions
+	+ In removeAppointment() function, displayFormattedPhone() function was used 
+to display phone number of the patient associated with the appointment that is 
+being removed. This function can be used in multiple places throughout the program 
+and it would make more sense to place it in modules to avoid redundancy and make 
+the code more modular.
+- int inputIntRange(int min, int max);
+	+ I called this function in viewAppointmentSchedule() function, 
+addAppointment() function, removeAppointment() function and other functions that 
+required user enter the selection.
+	+ All 3 functions above require user to enter month, day, hour, minute 
+information which is limited.
+	  For example: user has to enter month between 1 and 12, so instead of using 
+scanf, calling clearInputBuffer() function and then using conditions to check 
+whether the input is in range or not, inputIntRange() function covers all the works.

@@ -1,0 +1,32 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca    
+Section    : E
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. - Use code blocks (curly braces) even for single-line statements in the 
+iteration parts to make sure that dangling else doesn't appear
+- Use spacing and indentation (consistent throughout my code) especially for 
+nested constructs
+
+2. I don't think that this workshop can be done without nesting because 
+loops and conditions depend on each other and also the user's inputs
+In case nesting is not possible, we can not control the flow of code 
+Ex: compiler doesn't know that the loops should be run in which cases or 
+when the loops should stop  
+
+3. - Using a series of "if" statements is inefficient because the program 
+will have to evaluate all of the conditions, even if a previous condition 
+has already been true => slow down the performance.
+
+- On the other hand, the "if/else if..." statements only have to be excuted 
+until one is found to be true, and the rest of the conditions will not be 
+excuted => a more efficient and optimized execution of the program.

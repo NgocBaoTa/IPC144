@@ -1,0 +1,7 @@
+﻿  clinic.c
+C:\Users\baong\source\repos\IPC144\A1\MS2\MS2\clinic.c(308,13): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\baong\source\repos\IPC144\A1\MS2\MS2\clinic.c(358,13): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\baong\source\repos\IPC144\A1\MS2\MS2\clinic.c(441,19): warning C4552: '!=': result of expression not used
+C:\Users\baong\source\repos\IPC144\A1\MS2\MS2\clinic.c(449,19): warning C4552: '!=': result of expression not used
+C:\Users\baong\source\repos\IPC144\A1\MS2\MS2\clinic.c(457,19): warning C4552: '!=': result of expression not used
+  MS2.vcxproj -> C:\Users\baong\source\repos\IPC144\A1\MS2\MS2\x64\Debug\MS2.exe

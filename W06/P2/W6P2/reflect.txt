@@ -1,0 +1,48 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #6
+Full Name  : Bao Ngoc Ta
+Student ID#: 116038225
+Email      : bta@myseneca.ca
+Section    : E
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+
+1. There are 3 types of loop: for loop, while loop and do-while loop. Each 
+of them can be used in different situations.
+For example: - when working with collections of elhen we know the 
+number of iterations required, for loop is more appropriate. e.g.: using for 
+loop for item detail array in this worshop (we know the number of items)
+- in cases the number of iterations is not predetermined or for implementing 
+infinite loops, while loop is a more suitable option. e.g.: for validation 
+(validation will repeat until a valid value is entered -> so we don't know 
+exactly the number of iterations required)
+
+For loop is the preferred iteration construct when working with array because 
+arrays have fixed size so for loop provides a contructed way to access and work 
+with elements in array (make it easier). For example, we can use the variable 
+"i" to iterate through each element in the array and access elements using the 
+index "i".
+ 
+2. - Testing: I created a set of test cases that cover all different situations 
+can happen and edge cases. After that i check whether the output matches the 
+expected results. If the ouput is incorrect => debug
+- Debug:
++ Syntactic problems: I rely on the error messages compiler sends which indicate 
+the location (which lines) and type of error
++ Semantic problems: I add the printf statement to see the values of variables 
+at different points. And I set the breakpoints and start the debugger to see how 
+the values of variables change line by line.
+
+3.
+- Step 1: Open output file "output.txt" and correct output file "w6p2_master_output.txt"
+- Step 2: Compare output in line 6 in 2 files
+- Step 3: Review the part of code that generate this output => find the error(s)
+- Step 4: Modify the code to fix the error(s)
+- Step 5: Rerun the program and check the output (compare with correct output file)
+- Step 6: If the error is fixed, submit the updated code
